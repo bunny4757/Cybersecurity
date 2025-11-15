@@ -89,7 +89,10 @@ This confirms that SSH root login has been successfully disabled.
 
 ---
 
-## 📸 Screenshots to Include
+## Screenshot
+
+
+![Screenshot of permission](https://github.com/bunny4757/Cybersecurity/blob/main/Operating%20System/Images/ssh%20permission%20denied.png)
 
 ---
 
