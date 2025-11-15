@@ -1,15 +1,15 @@
 # Linux Users and File Permissions
 
-## 📌 Objective
+## Objective
 Create two user accounts in Linux.  
 Create a file that only one user (user1) can read and write,  
 and ensure the other user (user2) has no access to it.
 
 ---
 
-## 🧭 Step-by-Step Commands (Easy and Complete)
+## Step-by-Step Commands
 
-### 👉 Step 1 — Create Two Users
+###  Step 1 — Create Two Users
 Run these commands in the terminal:
 
 sudo adduser user1
@@ -19,7 +19,7 @@ This creates two separate user accounts.
 
 ---
 
-### 👉 Step 2 — Switch to user1
+###  Step 2 — Switch to user1
 
 su - user1
 
@@ -30,7 +30,7 @@ Now you are logged in as **user1**.
 
 ---
 
-### 👉 Step 3 — Create a File as user1
+###  Step 3 — Create a File as user1
 
 touch secretfile.txt
 echo "This file belongs to user1 only." > secretfile.txt
@@ -80,12 +80,10 @@ This means:
 
 ---
 
-### 👉 Step 5 — Switch to user2 and Test
+###  Step 5 — Switch to user2 and Test
 
 su - user2
 
-powershell
- 
 
 Try reading user1’s file:
 
@@ -109,4 +107,17 @@ Permission denied
 This proves the permissions are correct.
 
 ---
+
+## Screenshots
+
+![user1 file creation](images/user1.png)
+
+![chnange permissions](images/chmoduser1.png)
+
+![user2 denied](images/user2denied.png)
+
+
+## Conclusion
+
+In this assignment, we successfully created two separate user accounts in Linux and configured file permissions to ensure secure access control. By using the `chmod 600` permission mode, we restricted the file so that only the owner (user1) could read and write to it, while user2 had no access at all. This demonstrates how Linux file permissions protect sensitive data and enforce user-level security. Overall, the task helped in understanding user management, file ownership, and permission settings—fundamental concepts in system administration and cybersecurity.
 
