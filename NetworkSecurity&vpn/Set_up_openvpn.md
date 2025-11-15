@@ -115,7 +115,9 @@ This stops the VPN tunnel.
 
 ## Screenshots to Include
 
-
+![hostip](https://github.com/bunny4757/Cybersecurity/blob/main/NetworkSecurity%26vpn/images/ipaddr.png)
+![ovpnip](https://github.com/bunny4757/Cybersecurity/blob/main/NetworkSecurity%26vpn/images/ovpn.png)
+![newip](https://github.com/bunny4757/Cybersecurity/blob/main/NetworkSecurity%26vpn/images/newip.png)
  
  
 
