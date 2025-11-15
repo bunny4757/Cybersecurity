@@ -110,11 +110,11 @@ This proves the permissions are correct.
 
 ## Screenshots
 
-![user1 file creation](images/user1.png)
+![user1 file creation](https://github.com/bunny4757/Cybersecurity/blob/main/Operating%20System/Images/user1.png)
 
-![chnange permissions](images/chmoduser1.png)
+![chnange permissions](https://github.com/bunny4757/Cybersecurity/blob/main/Operating%20System/Images/chmoduser1.png)
 
-![user2 denied](images/user2denied.png)
+![user2 denied](https://github.com/bunny4757/Cybersecurity/blob/main/Operating%20System/Images/user2denied.png)
 
 
 ## Conclusion
