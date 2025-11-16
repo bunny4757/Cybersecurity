@@ -17,9 +17,6 @@ The goal of this assignment is to demonstrate a safe and controlled SQL Injectio
 ###  Step 1 — Open OWASP Juice Shop
 The Juice Shop application was opened in a controlled environment.  
 
-
-📸*Screenshot 1: SQL Injection payload entered into the login form*
-
 ---
 
 ###  Step 2 — Perform SQL Injection on the Login Form
@@ -34,14 +31,11 @@ This payload forces the login query to always return **true**, allowing login wi
 
 The login request was captured in Burp Suite, where the returned authentication token showed the **admin email**, confirming unauthorized admin access.
 
-📸 *Screenshot 2: Burp Suite showing authentication token and admin email*
-
 ---
 
 ### Step 3 — Logged in as Administrator
 After submitting the SQL injection payload, the application logged into the **Administrator account**, proving that the login form is vulnerable to SQL Injection.
 
-📸 *Screenshot 3: Application logged in as admin*
 
 ---
 
@@ -64,6 +58,10 @@ This allows an attacker to access accounts without valid credentials.
 
 ---
 
+## Screenshots Included
+![Sql injection login form](https://github.com/bunny4757/Cybersecurity/blob/main/Web%20Application%20security/Images/sqlinject.png)
+![Burp authentication token](https://github.com/bunny4757/Cybersecurity/blob/main/Web%20Application%20security/Images/bruiplogin.png)
+![logged in as admin](https://github.com/bunny4757/Cybersecurity/blob/main/Web%20Application%20security/Images/loginasadmin.png)
 
 
 ##  What This Demonstrates
