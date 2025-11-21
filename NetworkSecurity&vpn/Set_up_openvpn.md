@@ -9,9 +9,9 @@ The purpose of this assignment is to install and configure OpenVPN on a Linux ma
 
 ### Step 1 — Update System Packages
 Update all system packages to ensure the latest versions are installed:
-
+```
 sudo apt update && sudo apt upgrade -y
-
+```
  
  
 
@@ -19,9 +19,9 @@ sudo apt update && sudo apt upgrade -y
 
 ### Step 2 — Install OpenVPN
 Install OpenVPN using:
-
+```
 sudo apt install openvpn -y
-
+```
  
  
 
@@ -31,9 +31,9 @@ This installs the OpenVPN client required to connect to VPN servers.
 
 ### Step 3 — Check Public IP Before Connecting
 Run the following command to display your current public IP:
-
+```
 curl ifconfig.me
-
+```
  
  
 
@@ -63,10 +63,10 @@ cp ~/Downloads/yourfile.ovpn .
 ### Step 5 — Connect to the VPN
 
 Run:
-
+```
 sudo openvpn --config yourfile.ovpn
+```
 
-csharp
  
 
 If using VPNBook, enter the username & password displayed on their website.
@@ -82,9 +82,9 @@ Initialization Sequence Completed
 
 ### Step 6 — Verify IP After Connecting
 Open a new terminal (keep the VPN terminal running) and run:
-
+```
 curl ifconfig.me
-
+```
  
  
 
