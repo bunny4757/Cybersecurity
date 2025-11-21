@@ -60,7 +60,7 @@ Below is the complete list of assignments along with links to their respective f
 
 ---
 
-## 📘 About This Repository
+##  About This Repository
 This repository serves as a personal documentation hub demonstrating hands-on experience in:
 
 - Linux administration  
