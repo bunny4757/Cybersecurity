@@ -45,8 +45,9 @@ systemctl status auditd
 An audit rule was added to monitor the specific file created by the script:
 
  
- 
+``` 
 sudo auditctl -w /tmp/secret.txt -p rwxa -k malicious_test
+```
 This rule monitored:
 
 Read
@@ -63,8 +64,9 @@ The key malicious_test was used to easily filter logs.
 The simulated malicious script was executed:
 
  
- 
+``` 
 ./malicious.sh
+```
 This resulted in:
 
 Creation of /tmp/secret.txt
@@ -75,8 +77,9 @@ Creation of /tmp/hidden_folder
 
 # Step 5: Viewing Audit Logs
 Audit logs for the file were retrieved using:
- 
+``` 
 sudo ausearch -k malicious_test
+```
 This command displayed all logged events related to the simulated malicious activity.
 
 ## Step 6: Exporting the Audit Log Output
