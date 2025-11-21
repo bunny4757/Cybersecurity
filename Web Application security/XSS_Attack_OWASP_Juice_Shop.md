@@ -23,7 +23,9 @@ A user input field (such as the review, feedback, or search field) was selected 
 
 ###  Step 2 — Enter XSS Payload
 To test if the input was vulnerable, the following harmless XSS payload was entered:
+```
 <iframe src=javascript:alert('XSS')></iframe>
+```
 This payload attempts to execute a JavaScript alert() function by embedding it inside an iframe.
 
 If the application does not sanitize input, the script will execute in the user’s browser.
