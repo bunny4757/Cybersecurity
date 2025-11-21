@@ -11,18 +11,18 @@ and ensure the other user (user2) has no access to it.
 
 ###  Step 1 — Create Two Users
 Run these commands in the terminal:
-
+```
 sudo adduser user1
 sudo adduser user2
-
+```
 This creates two separate user accounts.
 
----
+
 
 ###  Step 2 — Switch to user1
-
+```
 su - user1
-
+```
  
  
 
@@ -31,26 +31,26 @@ Now you are logged in as **user1**.
 ---
 
 ###  Step 3 — Create a File as user1
-
+```
 touch secretfile.txt
 echo "This file belongs to user1 only." > secretfile.txt
+```
 
-sql
  
 
 Check permissions:
-
+```
 ls -l secretfile.txt
-
+```
 
 ---
 
-### 👉 Step 4 — Give Access ONLY to user1
+###  Step 4 — Give Access ONLY to user1
 
 Use chmod:
-
+```
 chmod 600 secretfile.txt
-
+```
 markdown
  
 
@@ -60,9 +60,9 @@ Explanation of `600`:
 - **0** = no permissions for others  
 
 Check again:
-
+```
 ls -l secretfile.txt
-
+```
  
  
 
@@ -81,14 +81,14 @@ This means:
 ---
 
 ###  Step 5 — Switch to user2 and Test
-
+```
 su - user2
-
+```
 
 Try reading user1’s file:
-
+```
 cat /home/user1/secretfile.txt
-
+```
 makefile
  
 
