@@ -21,9 +21,9 @@ The Juice Shop application was opened in a controlled environment.
 
 ###  Step 2 — Perform SQL Injection on the Login Form
 A classic training-safe SQL Injection payload was entered in the **email field** to bypass authentication:
-
+```
 ' OR 1=1--
-
+```
  
  
 
