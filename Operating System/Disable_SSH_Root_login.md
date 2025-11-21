@@ -10,9 +10,9 @@ After editing the SSH configuration file, the SSH service is restarted and the c
 
 ### Step 1 — Open the SSH Configuration File
 Use the following command to edit the SSH configuration file:
-
+```
 sudo nano /etc/ssh/sshd_config
-
+```
  
  
 
@@ -53,16 +53,13 @@ Save and exit nano:
 
 ### Step 4 — Restart the SSH Service
 Apply the changes by restarting the SSH daemon:
-
+```
 sudo systemctl restart ssh
-
-nginx
- 
-
+```
 or depending on your system:
-
+```
 sudo systemctl restart sshd
-
+```
  
  
 
@@ -72,9 +69,9 @@ If no errors appear, SSH restarted successfully.
 
 ### Step 5 — Verify That Root Login Is Disabled
 Attempt to log in as root using SSH:
-
+```
 ssh root@localhost
-
+```
  
  
 
@@ -110,7 +107,7 @@ By disabling root login:
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 
 In this, we configured the Linux SSH daemon to block root login, enhanced system security, and verified the changes by testing SSH authentication. Disabling SSH root login is a standard security practice used by system administrators to reduce attack surfaces and prevent unauthorized access to critical systems.
 
