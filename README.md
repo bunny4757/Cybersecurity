@@ -11,52 +11,52 @@ All assignments include documentation, screenshots, and practical steps.
 Below is the complete list of assignments along with links to their respective folders:
 
 ### **Assignment 1 – Caesar Cipher (Encryption & Decryption)**
-🔗 [Open Folder](CaesarCipher)
+🔗 [Open Folder](Cybersecurity%20Fundamentals/Caesar_Cipher.md)
 
 ### **Assignment 2 – RSA Key Pair Generation using OpenSSL**
-🔗 [Open Folder](RSA_KEY_Pair)
+🔗 [Open Folder](Cybersecurity%20Fundamentals/RSA_key_pair_generation_using_Open_SSL.md)
 
 ### **Assignment 3 – Linux User Accounts & File Permission Control**
-🔗 [Open Folder](Linux_User_Accounts)
+🔗 [Open Folder](Operating%20System/Linux_User_and_File_Permissions.md)
 
 ### **Assignment 4 – Disable SSH Root Login**
-🔗 [Open Folder](Disable_SSH_Root_Login)
+🔗 [Open Folder](Operating%20System/Disable_SSH_Root_login.md)
 
 ### **Assignment 5 – OpenVPN Setup & IP Verification**
-🔗 [Open Folder](OpenVPN)
+🔗 [Open Folder](NetworkSecurity%26vpn/Set_up_openvpn.md)
 
 ### **Assignment 6 – Nmap Scan & Service Enumeration**
-🔗 [Open Folder](Nmap_Scan)
+🔗 [Open Folder](NetworkSecurity%26vpn/Nmap_port_scan.md)
 
 ### **Assignment 7 – SQL Injection on OWASP Juice Shop**
-🔗 [Open Folder](SQL_Injection)
+🔗 [Open Folder](Web%20Application%20security/SQL_Injection_OWASP_Juice_Shop.md)
 
 ### **Assignment 8 – XSS Attack on OWASP Juice Shop**
-🔗 [Open Folder](XSS)
+🔗 [Open Folder](Web%20Application%20security/XSS_Attack_OWASP_Juice_Shop.md)
 
 ### **Assignment 9 – WHOIS & NSLOOKUP Domain Information Gathering**
-🔗 [Open Folder](WHOIS_NSLOOKUP)
+🔗 [Open Folder](Ethical%20Hack%20and%20Pentest/WHOIS_and_NSLOOKUP_Domain.md)
 
 ### **Assignment 10 – Metasploit Reverse HTTPS Payload Attack**
-🔗 [Open Folder](Metasploit_Attack)
+🔗 [Open Folder](Ethical%20Hack%20and%20Pentest/Metasploit%20Framework%20Exploit.md)
 
 ### **Assignment 11 – Strings Extraction from Executable**
-🔗 [Open Folder](Strings_Analysis)
+🔗 [Open Folder](Malware%20Analysis%20and%20Reverse%20Engineering/String_commands.md)
 
 ### **Assignment 12 – Sandbox ASCII & Static Malicious Score Analysis**
-🔗 [Open Folder](Sandbox_Analysis)
+🔗 [Open Folder](Malware%20Analysis%20and%20Reverse%20Engineering/Sandbox_Env_Malware.md)
 
 ### **Assignment 13 – Linux Auditd: Simulated Breach & Log Monitoring**
-🔗 [Open Folder](Auditd_Simulation)
+🔗 [Open Folder](Incident%20Response%20and%20Digital%20Forensics/Audit_Log_Analysis.md)
 
 ### **Assignment 14 – Splunk Authentication Log Analysis**
-🔗 [Open Folder](Splunk_Auth_Logs)
+🔗 [Open Folder](Incident%20Response%20and%20Digital%20Forensics/Failed_Login_Attempts.md)
 
 ### **Assignment 15 – Firewall Configuration (Allow SSH + HTTP Only)**
-🔗 [Open Folder](Firewall_Configuration)
+🔗 [Open Folder](Iot%20and%20Cloud%20security/Config_Firewall_on_VM.md)
 
 ### **Assignment 16 – IoT Traffic Analysis using PCAP & Wireshark**
-🔗 [Open Folder](IoT_Traffic_Analysis)
+🔗 [Open Folder](Iot%20and%20Cloud%20security/Traffic_Analysis_Using_Wireshark.md)
 
 ---
 
