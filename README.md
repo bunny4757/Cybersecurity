@@ -1,4 +1,4 @@
-# Cybersecurity Projects Repository
+# Hands-On Cybersecurity Labs & Projects
 
 This repository contains my complete collection of hands-on **cybersecurity projects**, covering real-world skills such as penetration testing, network security, malware analysis, SIEM investigation, Linux security, cryptography, and more.  
 Each project includes a documented walkthrough, commands used, explanations, screenshots, and conclusions.
@@ -57,6 +57,10 @@ Below is the full list of projects with links to each folder in this repository:
 
 ### **Project 16 – IoT Traffic Analysis using PCAP & Wireshark**
 🔗 [Open Folder](Iot%20and%20Cloud%20security/Traffic_Analysis_Using_Wireshark.md)
+
+### **Project 17 – Tryhackme and Blue Team Labs Online Writeups**
+🔗 [Open Folder](Cybersecurity-Labs-Writeups)
+
 
 ---
 
