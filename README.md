@@ -61,6 +61,9 @@ Below is the full list of projects with links to each folder in this repository:
 ### **Project 17 – Tryhackme and Blue Team Labs Online Writeups**
 🔗 [Open Folder](Cybersecurity-Labs-Writeups)
 
+### **Project 18 – Web Application Testing (OWASP Juice Shop)**
+🔗 [Open Folder](OWASP_Juice_Shop_Testing)
+
 
 ---
 
